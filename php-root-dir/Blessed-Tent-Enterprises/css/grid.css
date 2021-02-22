@@ -1,0 +1,47 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    /* background-color: #cca523; */
+    padding: 10px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      justify-content: space-around;
+    }
+  }
+
+  /* @media screen and (min-width: 1024px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: space-around;
+    }
+  } */
+
+  /* @media screen and (min-width: 375px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: space-around;
+    }
+  } */
+
+  /* @media screen and (min-width: 246px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: space-around;
+    }
+  } */
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
